@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Services Page</title>
+  <style>
+    /* General Styles */
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      scroll-behavior: smooth;
+      background-color: #f9f9f9;
+    }
+
+    header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px 50px;
+      }
+  
+      header a {
+        text-decoration: none;
+        color: #845DFF;
+        margin: 0 15px;
+      }
+  
+      .buttons{
+          padding: 50px;
+          margin-left: 50px;
+      }
+      .btn-contact{
+          color: white;
+          background-color: #845DFF;
+          border: solid 1px #845DFF;
+          border-radius: 100px;
+          width: 140px;
+          height: 50px;
+          margin-right: 15px;
+      }
+      .btn{
+        color: white;
+        background-color: #845DFF;
+        border: solid 1px #845DFF;
+        border-radius: 100px;
+        width: 250px;
+        height: 50px;
+        margin-right: 15px;
+    }
+    .btn:hover{
+        background-color: #A4DB74;
+        color: #373636;
+    }
+
+    .section {
+      padding: 2rem 1rem;
+      text-align: center;
+    }
+
+    .services-container {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      justify-content: center;
+    }
+
+    .card {
+      background-color: white;
+      border: 2px solid #A4DB74;
+      border-radius: 8px;
+      width: 300px;
+      padding: 20px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      transition: transform 0.3s, box-shadow 0.3s;
+    }
+
+    .card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+    }
+
+    .card h3 {
+      margin-top: 0;
+      color: #845DFF;
+    }
+
+    .card p {
+      color: #555;
+      margin-bottom: 1.5rem;
+    }
+
+    .card button {
+      background-color: #845DFF;
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      border-radius: 5px;
+      font-size: 1rem;
+      cursor: pointer;
+      transition: background-color 0.3s;
+    }
+
+    .card button:hover {
+      background-color: #A4DB74;
+      color: #333;
+    }
+
+    .navbar a.active {
+      color: #A4DB74;
+    }
+    a{
+        text-decoration: none;
+        color: white;
+    }
+    a:hover{
+        color: #333;
+    }
+  </style>
+</head>
+<body>
+  <!-- Header navigation -->
+  <header>
+    <div class="logo"><a href="index.html"><img src="youneslogo.png" alt="logo younes"></a></div>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="services.html">Services</a>
+      <a href="about.html">About</a>
+    </nav> 
+    <button class="btn-contact">Contact Me</button>
+  </header>
+
+  <!-- Sections -->
+  <section id="home" class="section">
+    <h1>Welcome to My Services Page</h1>
+    <p>Explore my expertise in graphic design, video editing, and social media management.</p>
+  </section>
+
+  <section id="services" class="section">
+    <h2>My Services</h2>
+    <div class="services-container">
+      <!-- Card 1 -->
+      <div class="card">
+        <h3>Graphic Design</h3>
+        <p>I create visually appealing designs that elevate your brand's identity.</p>
+        <button><a href="https://drive.google.com/drive/folders/1SYZP-F8a965OfNChuvAItC9LcNeJILw1?usp=drive_link">Learn More</a></button>
+      </div>
+      <!-- Card 2 -->
+      <div class="card">
+        <h3>Video Editing</h3>
+        <p>Professional video editing to tell your story with creativity and precision.</p>
+        <button><a href="https://drive.google.com/drive/folders/1Ud_z8difdPEkycxDx_YjTBx_1Wn_Sx05?usp=drive_link">Learn More</a></button>
+      </div>
+      <!-- Card 3 -->
+      <div class="card">
+        <h3>Social Media Management</h3>
+        <p>Boost your online presence with effective social media strategies.</p>
+        <button> <a href="https://www.instagram.com/digiweb_1/">Learn More</a></button>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="section">
+    <h2>Contact Me</h2>
+    <p>Email: elkaidiyounes1@gmail.com | Phone: +212 6 58 22 86 29</p>
+  </section>
+</body>
+</html>
